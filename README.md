@@ -76,56 +76,26 @@ Cross-platform responsive design
 Aligned with concerns from NASA, ESA, and SpaceX
 
 Shows short- and long-term effects of unmanaged orbital debris
+##TLE Data Sources (CelesTrak)
+Active Satellites
+https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=tle
 
-Offers tools for policy planning, education, and public engagement
+Iridium Debris
+https://celestrak.org/NORAD/elements/gp.php?GROUP=iridium-33-debris&FORMAT=tle
 
-📊 Data Sources & Accuracy
-Source	Description
-NORAD TLE Data	Official two-line element sets for space objects
-CelesTrak	Trusted aggregator for TLE data and debris info
-Real-Time Sync	Live updates from APIs and satellite.js
+Weather Satellites
+https://celestrak.org/NORAD/elements/gp.php?GROUP=weather&FORMAT=tle
 
-Prediction Accuracy:
+Earth Resources
+https://celestrak.org/NORAD/elements/gp.php?GROUP=resource&FORMAT=tle
 
-±15% (5-year model)
+Communication Sats (GEO)
+https://celestrak.org/NORAD/elements/gp.php?GROUP=geo&FORMAT=tle
 
-±25% (10-year model)
+COSMOS 2251 Debris
+https://celestrak.org/NORAD/elements/gp.php?GROUP=cosmos-2251-debris&FORMAT=tle
 
-🎨 User Experience
-Modern Aesthetic – Clean, Apple-like visual design
+Recent Launches (Last 30 Days)
+https://celestrak.org/NORAD/elements/gp.php?GROUP=last-30-days&FORMAT=tle
 
-Interactive Navigation – Hover effects and animated transitions
-
-Optimized Performance – 60fps rendering on both desktop and mobile
-
-Contextual Learning – Tooltips and sidebars for in-depth understanding
-
-🔬 Technical Highlights
-✔️ Real-time SGP4 propagation of satellite orbits
-
-✔️ Custom p5.js orbital rendering engine
-
-✔️ ML-based future debris prediction model
-
-✔️ Mobile-first responsive layout
-
-✔️ CORS-enabled API communication
-
-🌍 Real-World Relevance
-Over 34,000 tracked debris objects orbit Earth today. This project:
-
-Promotes awareness around orbital pollution
-
-Offers tools for education and space policy simulation
-
-Bridges the gap between complex orbital physics and public understanding
-
-Lays the foundation for future real-time tracking and mitigation systems
-
-📘 License
-MIT License – feel free to use, extend, and build upon this work.
-
-🙌 Contributing
-Contributions, feature suggestions, and bug reports are welcome!
-Please open an issue or submit a pull request.
 
